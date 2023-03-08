@@ -14,7 +14,6 @@
 		CEE277FA29B5C91D0042A225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE277F929B5C91D0042A225 /* Assets.xcassets */; };
 		CEE277FD29B5C91D0042A225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE277FB29B5C91D0042A225 /* LaunchScreen.storyboard */; };
 		CEE2780529B5CDA90042A225 /* UpbitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2780429B5CDA90042A225 /* UpbitResponse.swift */; };
-		CEE2780729B5E6DD0042A225 /* RequestMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2780629B5E6DD0042A225 /* RequestMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		CEE277FC29B5C91D0042A225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE277FE29B5C91D0042A225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE2780429B5CDA90042A225 /* UpbitResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpbitResponse.swift; sourceTree = "<group>"; };
-		CEE2780629B5E6DD0042A225 /* RequestMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +61,11 @@
 				CEE277F029B5C91B0042A225 /* AppDelegate.swift */,
 				CEE277F229B5C91B0042A225 /* SceneDelegate.swift */,
 				CEE277F429B5C91B0042A225 /* ViewController.swift */,
-				CEE2780629B5E6DD0042A225 /* RequestMessage.swift */,
+				CEE2780429B5CDA90042A225 /* UpbitResponse.swift */,
 				CEE277F629B5C91B0042A225 /* Main.storyboard */,
 				CEE277F929B5C91D0042A225 /* Assets.xcassets */,
 				CEE277FB29B5C91D0042A225 /* LaunchScreen.storyboard */,
 				CEE277FE29B5C91D0042A225 /* Info.plist */,
-				CEE2780429B5CDA90042A225 /* UpbitResponse.swift */,
 			);
 			path = Upbit_Socket;
 			sourceTree = "<group>";
@@ -145,7 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE277F529B5C91B0042A225 /* ViewController.swift in Sources */,
-				CEE2780729B5E6DD0042A225 /* RequestMessage.swift in Sources */,
 				CEE2780529B5CDA90042A225 /* UpbitResponse.swift in Sources */,
 				CEE277F129B5C91B0042A225 /* AppDelegate.swift in Sources */,
 				CEE277F329B5C91B0042A225 /* SceneDelegate.swift in Sources */,
